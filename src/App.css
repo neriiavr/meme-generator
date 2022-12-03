@@ -20,6 +20,11 @@ main {
   padding:20px;
 }
 
+.header--image {
+  height: 100%;
+  margin-right: 6px;
+}
+
 .header--title {
   font-size: 1.25rem;
   margin-right: auto;
@@ -34,6 +39,7 @@ main {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
+  margin-bottom: 17px;
 }
 
 .form--inputs {
@@ -44,7 +50,6 @@ main {
 
 .form--button {
   grid-column: 1 / -1;
-  font-family: "Karla", sans-serif;
   border-radius: 5px;
   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   color: white;
@@ -52,8 +57,13 @@ main {
   cursor: pointer;
 }
 
+.meme {
+  position:relative;
+}
+
 .meme--image {
   max-width: 100%;
+  border-radius: 3px;
 }
 
 .meme--text {
